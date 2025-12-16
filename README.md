@@ -1,17 +1,18 @@
 # Tarea - Desarrollo en Plataformas
 
-**Estudiante:** Dana Bahamonde  
-**Fecha:** 15 de Diciembre, 2025  
-**Paralelo:** P9932
+Estudiante: Dana Bahamonde  
+Fecha: 15 de Diciembre, 2025  
+Paralelo: P9932
 
+---
 
 ## Mis Decisiones de Diseño
 
-# 1. Tabla
+### 1. Tabla
 
-**Nombre de la tabla:** `vehiculos`
+Nombre de la tabla: vehiculos
 
-**Campos:**
+Campos:
 
 | Campo | Tipo | ¿Obligatorio? |
 |-------|------|---------------|
@@ -24,21 +25,20 @@
 | updated_at | TIMESTAMP | Sí (automático) |
 | deleted_at | TIMESTAMP | No |
 
-# 2. Tipos de vehículo
+### 2. Tipos de vehículo
 
 - Automóvil
 - Motocicleta
 - Camioneta
 
-# 3. ¿Se puede eliminar registros?
+### 3. ¿Se puede eliminar registros?
 
-**Respuesta:** Sí, mediante borrado lógico (soft deletes)
+Respuesta: Sí, con borrado lógico (soft deletes)
 
-**Razón:** Los registros se marcan como eliminados pero se conservan en la base de datos para mantener historial y evitar pérdida de información.
-
-
-# Repositorio
-
-**GitHub:** [https://github.com/ranisiita/parqueadero-laravel](https://github.com/ranisiita/parqueadero-laravel)
+Razón: Los registros se marcan como eliminados pero se conservan en la base de datos para mantener historial y evitar pérdida de información.
 
 ---
+
+## Repositorio
+
+GitHub: https://github.com/ranisiita/parqueadero-laravel
